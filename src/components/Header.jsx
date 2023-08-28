@@ -57,7 +57,7 @@ export const Headers = ({
                                 <h3>Total:</h3>
                                 <span className="total-pagar">${total}</span>
                             </div>
-                            <button className='button-clean-cart' onClick={onCleanCart}>Vaciar Carrito</button>
+                            <button className="button-clear-cart" onClick={onCleanCart}>Vaciar Carrito</button>
                         </>
                     ) : (
                         <p className='cart-empty'>El carrito esta vacio</p>
